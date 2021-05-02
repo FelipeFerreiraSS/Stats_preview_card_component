@@ -17,4 +17,47 @@ body {
   font-family: "Inter", sans-serif;
   font-family: "Lexend Deca", sans-serif;
   font-size: 15px;
+
+  min-width: 100vh;
+  min-height: 100vh;
+
+  background-color: var(--VeryDarkBlue);
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  width: 900px;
+  height: 372px;
+  margin: auto;
+  display: flex;
+  border-radius: 5px;
+  background-color: var(--DarkDesaturatedBlue);
+}
+
+.left {
+  padding: 50px;
+}
+
+.title > h1 {
+  color: white;
+}
+
+.title > p {
+  color: var(--SlightlyTransparentWhite);
+}
+
+.title > h1 > span {
+  color: var(--SoftViolet);
+}
+
+.numbers {
+  display: flex;
+  justify-content: space-between;
+}
+
+.right > img {
+  width: 450px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
