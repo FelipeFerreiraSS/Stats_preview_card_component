@@ -76,3 +76,66 @@ body {
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
 }
+
+@media (max-width: 375px) {
+  body {
+    height: 1140px;
+    width: 370px;
+    min-width: 0vh;
+    min-height: 0vh;
+  }
+
+  .main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 610px;
+    width: 350px;
+    margin-top: 383px;
+  }
+
+  .left {
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 17px;
+  }
+
+  .title > h1 {
+    width: 264px;
+    font-size: 26px;
+    text-align: center;
+  }
+
+  .title > p {
+    width: 283px;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .numbers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .numbers > div {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .right > img {
+    width: 350px;
+    position: absolute;
+    top: 100px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 0px;
+  }
+}
